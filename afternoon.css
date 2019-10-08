@@ -1,5 +1,5 @@
 body {
-  height: 250vh;
+  height: 350vh;
   width: auto;
 }
 
@@ -7,9 +7,13 @@ body {
   border: 1rem solid;
   border-color: #ffe3ea;
   display: flex;
+  background: white;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 10px;
+  z-index: 3;
 }
 img {
   float: left;
@@ -97,18 +101,17 @@ li {
   left: 560px;
   z-index: 2;
 }
-.secondBox{ 
+.secondBox {
   display: flex;
   height: 500px;
   width: 80%;
   border: 3rem solid;
-  border-color: #C4D0F5;
+  border-color: #c4d0f5;
   margin: 67px;
   position: relative;
-  bottom: 300px ;
+  bottom: 300px;
 }
 .sBH1 {
-  
   display: flex;
   font-size: 40px;
   justify-content: flex-start;
@@ -118,7 +121,7 @@ li {
   left: 150px;
   font-weight: bolder;
 }
-.sBp{
+.sBp {
   display: flex;
   font-size: 20px;
   justify-content: flex-start;
@@ -132,4 +135,62 @@ li {
   bottom: 670px;
   left: 270px;
   z-index: 2;
+  border-radius: 78%;
+}
+
+.thirdBox {
+  display: flex;
+  height: 1000px;
+  width: 80%;
+  border: 3rem solid;
+  border-color: #35cada;
+  margin: 67px;
+  position: relative;
+  bottom: 600px;
+}
+
+.tBH1 {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  font-weight: bolder;
+  top: 150px;
+  left: 500px;
+}
+
+.tBP {
+  display: flex;
+  font-size: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  right: 60px;
+}
+
+.bigBook {
+  display: flex;
+  height: 260px;
+  width: 340px;
+  background-color: #19263c;
+  border: solid;
+  border-color: black;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 520px;
+  top: 200px;
+}
+.bBW {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  font-size: 35px;
+  height: 20px;
+  width: 20px;
+}
+footer {
+
 }
